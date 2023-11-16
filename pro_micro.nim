@@ -22,25 +22,20 @@ const
   B4* = pin('B', 4)
   B5* = pin('B', 5)
   B6* = pin('B', 6)
-  B7* = pin('B', 7)
   D0* = pin('D', 0)
   D1* = pin('D', 1)
   D2* = pin('D', 2)
   D3* = pin('D', 3)
   D4* = pin('D', 4)
   D5* = pin('D', 5)
-  D6* = pin('D', 6)
   D7* = pin('D', 7)
-  F0* = pin('F', 0)
-  F1* = pin('F', 1)
   F4* = pin('F', 4)
   F5* = pin('F', 5)
   F6* = pin('F', 6)
   F7* = pin('F', 7)
   C6* = pin('C', 6)
-  C7* = pin('C', 7)
   E6* = pin('E', 6)
-  LED* = D6
+  LED* = B0
 
 {.passC: "-mmcu=atmega32u4".}
 {.passC:  "-I.".}
